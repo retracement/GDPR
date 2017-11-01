@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="GDPR Demo">
+  <Items>
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="futuredecoded.database.windows.net:retracement">
+          <Created>2017-10-31T23:39:33.1026527+00:00</Created>
+          <Type>SQL</Type>
+          <Server>futuredecoded.database.windows.net</Server>
+          <UserName>retracement</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName />
+        </ConnectionNode>
+        <ConnectionNode Name="server1\sql2017:sa">
+          <Created>2017-10-31T17:07:39.3655839+00:00</Created>
+          <Type>SQL</Type>
+          <Server>server1\sql2017</Server>
+          <UserName>sa</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="00 - Setup.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:server1\sql2017:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>server1\sql2017</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>00 - Setup.sql</FullPath>
+        </FileNode>
+        <FileNode Name="01 - SSMS VA Tool.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:server1\sql2017:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>server1\sql2017</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>01 - SSMS VA Tool.sql</FullPath>
+        </FileNode>
+        <FileNode Name="02 - Database Audit.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:server1\sql2017:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>server1\sql2017</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>02 - Database Audit.sql</FullPath>
+        </FileNode>
+        <FileNode Name="03 - Temporal Tables.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:server1\sql2017:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>server1\sql2017</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>03 - Temporal Tables.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>
