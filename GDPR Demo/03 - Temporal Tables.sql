@@ -1,3 +1,16 @@
+/************************************************************
+*   All scripts contained within are Copyright � 2015 of    *
+*   SQLCloud Limited, whether they are derived or actual    *
+*   works of SQLCloud Limited or its representatives        *
+*************************************************************
+*   All rights reserved. No part of this work may be        *
+*   reproduced or transmitted in any form or by any means,  *
+*   electronic or mechanical, including photocopying,       *
+*   recording, or by any information storage or retrieval   *
+*   system, without the prior written permission of the     *
+*   copyright owner and the publisher.                      *
+************************************************************/
+
 -- Convert table into a system managed temporal table
 USE [AdventureWorks2016]
 GO
